@@ -235,6 +235,7 @@ function maskEmail(email) {
     return `${maskedName}@${domain}`;
   }
   
+  
   const maskedUsers = users.map(user => ({
     ...user,
     email: maskEmail(user.email)

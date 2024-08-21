@@ -19,6 +19,7 @@ console.log(arr);
 
 const nestedArray1 = [1, [2, 3]];
 
+
 const nested = (arr) => {
     let ans = [];
     for (let i = 0; i < arr.length; i++) {

@@ -172,6 +172,7 @@ const countCharacterOfString = (str) =>{
     },{})
 }
 
+
 let characterArray = countCharacterOfString(str)
 console.log(characterArray)
 
