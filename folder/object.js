@@ -223,6 +223,7 @@ const pagingnation = (users,page,perpage) =>{
     return users.slice(start,last)
 }
 
+
 let data = pagingnation(users,2,3)
 console.log(data)
 

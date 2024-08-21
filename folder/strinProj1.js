@@ -15,6 +15,7 @@ class FinanceManager {
         console.log(`Expense added: ${description} - $${amount} (${category})`);
     }
 
+    
     getTotalIncome(){
         return this.expenses.reduce((total,item)=> total+item.amount,0)
     }

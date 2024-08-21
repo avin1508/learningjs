@@ -161,6 +161,7 @@ const countCharacterOfString = (str) =>{
         {
             if(!acc[char])
             {
+                
                 acc[char] = 1
             }
             else{

@@ -31,5 +31,6 @@ const nested = (arr) => {
     return ans;
 };
 
+
 const tested = nested(nestedArray1);
 console.log(tested);  
