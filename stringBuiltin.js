@@ -142,3 +142,36 @@ function endsWith(str, substr) {
 console.log(endsWith('aviansh kumar', 'kumar')); // true
 console.log('javaScript'.endsWith('script')); // false
 console.log("myfile.txt".endsWith('.txt')); // true
+
+
+
+function capitalize(str) {
+    return str.split('').map(char => char.toUpperCase());
+}
+
+console.log(capitalize('avinashkumar'));
+
+
+//count the character of string
+const str = "hello world";
+
+const countCharacterOfString = (str) =>{
+    return str.split('').reduce((acc,char)=>{
+        if(char !== ' ')
+        {
+            if(!acc[char])
+            {
+                acc[char] = 1
+            }
+            else{
+                acc[char]++
+            }
+        }
+        return acc
+    },{})
+}
+
+let characterArray = countCharacterOfString(str)
+console.log(characterArray)
+
+//output  { h: 1, e: 1, l: 3, o: 2, w: 1, r: 1, d: 1 }
