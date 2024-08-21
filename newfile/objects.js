@@ -235,13 +235,12 @@ function maskEmail(email) {
     return `${maskedName}@${domain}`;
   }
   
-  
+
   const maskedUsers = users.map(user => ({
     ...user,
     email: maskEmail(user.email)
   }));
   console.log(maskedUsers);
-
   //filtered people by area code
   const filterUserByAreacode = (users,areacode) =>{
     const peoples = users.filter(user => user.phone.startsWith(areacode))

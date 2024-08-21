@@ -37,7 +37,6 @@ fm.addIncome("Freelance Work", 1200); // Add more income
 fm.addExpense("Rent", 1200, "Housing"); // Add an expense
 fm.addExpense("Groceries", 300, "Food"); // Add another expense
 
-
 console.log("Total Income:", fm.getTotalIncome()); // Should output: 6200
 console.log("Total Expenses:", fm.getTotalExpenses()); // Should output: 1500
 console.log("Remaining Balance:", fm.getBalance()); // Should output: 4700
