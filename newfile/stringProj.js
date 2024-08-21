@@ -30,6 +30,7 @@ class FinanceManager {
 }
 
 
+//
 const fm = new FinanceManager(); // Create an instance of the FinanceManager class
 fm.addIncome("Salary", 5000); // Add some income
 fm.addIncome("Freelance Work", 1200); // Add more income
